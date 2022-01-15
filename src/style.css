@@ -36,6 +36,8 @@ header {
     width: 95vw;
     margin: 10px;
     box-shadow: 10px 10px 100px grey;
+    border: 1px grey solid;
+    padding: 10px;
 }
 
 .categories a{
