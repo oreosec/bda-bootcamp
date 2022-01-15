@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import {Header, Search, Categories, Foods, Drinks} from './App';
+
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <Header/>
+    <Search/>
+    <Categories/>
   </React.StrictMode>,
   document.getElementById('root')
 );

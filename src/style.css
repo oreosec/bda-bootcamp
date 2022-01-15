@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/GtuAR0I/videoblocks-close-up-of-various-types-of-japanese-fresh-prepared-sushi-served-on-a-patter-with-ginger-and-wasabi_hfn2bglwaq_thumbnail-1080_01.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 250px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Niagara Enraved';
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.block-container {
+    display: block !important;
+}
+
+.inline-container {
+    display: inline !important;
+}
+
+.search {
+    width: 95vw;
+    margin: 10px;
+    box-shadow: 10px 10px 100px grey;
+}
+
+.categories a{
+    padding: 10px;
+    color: grey;
+    text-decoration: none;
+}
+
+.active {
+    color: red !important;
+    text-decoration: underline !important;   
+}
+
+.list-menu {
+    margin: 20px;
+}
+
+.title-menu {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.img-menu {
+    margin: auto;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.price-menu span {
+    margin-right: 10px;
+}
+
