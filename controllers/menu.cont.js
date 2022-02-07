@@ -29,7 +29,7 @@ module.exports = {
 			});
 			res.status(200).json({message: "menu has edited."})
 		}catch(err) {
-			res.status(200).json({message: err})
+			res.status(500).json({message: err})
 		}
 	},
 
