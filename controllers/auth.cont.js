@@ -104,7 +104,7 @@ module.exports = {
 							message: "failed authenticate token.",
 						});
 					if (decoded) {
-						Auth.findOne({_id: decoded.id})
+						Auth.findOne({_id: decoded.id})						
 						.then((result) => {
 							// checking old password
 							const passwordIsValid = bcrypt.compareSync(							

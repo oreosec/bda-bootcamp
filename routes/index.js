@@ -41,7 +41,7 @@ ex. Change Password Request
 router.post('/login', login);
 router.post('/register', register);
 router.get('/logout', logout);
-router.post('/user/change/password', changePassword);
+router.put('/user/change/password', changePassword);
 router.get('/.well_known/jwks.json', (req, res) => {
   res.json(
     {
@@ -127,7 +127,7 @@ don't forget for table query "?table=1" <- table's number
 ex. Get Queue Request just add table query (?table=number)
 */
 
-router.post('/order/in', newOrder);
+router.put('/order/in', newOrder);
 router.get('/order/out', deOrder);
 router.get('/order/queue', getQueueNumber);
 
