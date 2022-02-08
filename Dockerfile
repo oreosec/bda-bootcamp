@@ -12,7 +12,7 @@ WORKDIR /app
 COPY . .
 
 # Install dependencies
-RUN yarn
+RUN npm install
 
 # Setup superivsord
 COPY config/supervisord.conf /etc/supervisord.conf
