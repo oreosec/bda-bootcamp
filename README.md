@@ -26,7 +26,10 @@ None Dev:
 ```bash
 npm start
 ```
-
+Using Docker:
+```bash
+docker-compose up
+```
 
 ## ex. Login & Register Request "POSY /login" & "POST /register
 ```json
